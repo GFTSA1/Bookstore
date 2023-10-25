@@ -10,10 +10,13 @@ namespace BookStore
         Soft,
         Hard
     }
-    class Edition : IProduct
+    public class Edition : IProduct
     {
+        private String _name;
+        private int _pagesCount;
+        private int _yearOfPublishing;
         public Book Book { get; set; }
-
+        
         public PublishingHouse PublishingHouse { get; set; }
 
         public coverTypesEnum TypeOfCover { get; set; }
@@ -22,9 +25,9 @@ namespace BookStore
         {
             get
             {
-                return Book.Name + Name;
+                return Book.Name + " " + _name;
             }
-            set { Book.Name = value; }
+            set { _name = value; }
 
         }
 
@@ -32,12 +35,12 @@ namespace BookStore
         {
             get
             {
-                return PagesCount;
+                return _pagesCount;
             }
             set
             {
                 if (value <= 0) throw new ArgumentOutOfRangeException("Кількість сторінок має бути більшою за 0");
-                else PagesCount = value;
+                else _pagesCount = value;
             }
         }
 
@@ -45,12 +48,12 @@ namespace BookStore
         {
             get
             {
-                return YearOfPublishing;
+                return _yearOfPublishing;
             }
             set
             {
                 if (value <= 0) throw new ArgumentOutOfRangeException("Рік видання не може бути < 0");
-                else YearOfPublishing = value;
+                else _yearOfPublishing = value;
             }
         }
 

@@ -12,17 +12,3 @@ D:\Education\Programming\Bookstore\Bookstore\obj\Debug\net6.0\refint\Bookstore.d
 D:\Education\Programming\Bookstore\Bookstore\obj\Debug\net6.0\Bookstore.pdb
 D:\Education\Programming\Bookstore\Bookstore\obj\Debug\net6.0\Bookstore.genruntimeconfig.cache
 D:\Education\Programming\Bookstore\Bookstore\obj\Debug\net6.0\ref\Bookstore.dll
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.GeneratedMSBuildEditorConfig.editorconfig
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.AssemblyInfoInputs.cache
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.AssemblyInfo.cs
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.csproj.CoreCompileInputs.cache
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.dll
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\refint\Bookstore.dll
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.pdb
-E:\Павло\5 семестр\Bookstore\bin\Debug\net6.0\Bookstore.exe
-E:\Павло\5 семестр\Bookstore\bin\Debug\net6.0\Bookstore.deps.json
-E:\Павло\5 семестр\Bookstore\bin\Debug\net6.0\Bookstore.runtimeconfig.json
-E:\Павло\5 семестр\Bookstore\bin\Debug\net6.0\Bookstore.dll
-E:\Павло\5 семестр\Bookstore\bin\Debug\net6.0\Bookstore.pdb
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\Bookstore.genruntimeconfig.cache
-E:\Павло\5 семестр\Bookstore\obj\Debug\net6.0\ref\Bookstore.dll

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BookStore
 {
-    class DeliveryToPostOffice : IDelivery
+    public class DeliveryToPostOffice : IDelivery
     {
         public int OfficeNumber { get; set; }
         public deliveryCompaines DeliveryCompany {get; set; }

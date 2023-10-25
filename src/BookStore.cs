@@ -4,13 +4,18 @@ using System.Text;
 
 namespace BookStore
 {
-    class BookStore
+    public class BookStore
     {
-        private Dictionary<Edition,int> _editionsList;
+        private Dictionary<Edition,int> _editionsDict;
 
         public void addEdition(Edition editionToAdd, int count)
         {
-            _editionsList.Add(editionToAdd,count);
+            _editionsDict.Add(editionToAdd,count);
+        }
+
+        public BookStore() 
+        {
+            _editionsDict = new Dictionary<Edition, int> ();
         }
     }
 }

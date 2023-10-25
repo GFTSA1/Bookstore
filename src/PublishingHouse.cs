@@ -4,18 +4,20 @@ using System.Text;
 
 namespace BookStore
 {
-    class PublishingHouse // видавництво
+    public class PublishingHouse // видавництво
     {
+
+        private String _name;
+        private String _country;
         public String Name
         {
             get
             {
-                return Name;
+                return _name;
             }
             set
             {
-                if (value == null) throw new ArgumentNullException("Ви не вказали назву видавництва.");
-                else Name = value;
+                _name = value;
             }
         }
 
@@ -23,12 +25,12 @@ namespace BookStore
         {
             get
             {
-                return Сountry;
+                return _country;
             }
             set
             {
                 if (value == null) throw new ArgumentNullException("Ви не країну видавництва.");
-                else Сountry = value;
+                else _country = value;
             }
         }
 

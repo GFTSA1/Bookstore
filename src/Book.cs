@@ -20,7 +20,7 @@ namespace BookStore
         Business
     }
 
-    class Book
+    public class Book
     {
         public Genres Genre { get; set; }
         public String Name { get; set; }
